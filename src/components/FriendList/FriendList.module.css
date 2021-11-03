@@ -1,0 +1,17 @@
+.list {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.listItem {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+
+  padding: 5px 0px 5px 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.listItem:not(:last-child) {
+  margin-bottom: 10px;
+}
